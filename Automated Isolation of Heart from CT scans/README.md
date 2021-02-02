@@ -16,3 +16,11 @@ main.m:
 
 Binary masks created for each image using the polynomial model are utilized by the active contours function to draw contours around the edges of the heart. Prior to applying active contours, a copy of the image is made which undergoes histogram rqualization, is passed through an averaging filter of size 5 followed by opening to remove background noise. The final mask is applied to the original image and saved as a new DICOM series image. 
 
+Original Image
+<img src = "original.png" width = 300>
+
+Drawing ROI
+<img src = "circular_ROI.png" width = 300>
+
+Final Image
+<img src = "final_image.png" width = 300>
