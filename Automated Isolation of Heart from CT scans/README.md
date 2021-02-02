@@ -1,4 +1,4 @@
-This program let's the user read in a file containing DICOM series images of chest CT scans and isolate the heart from the rest of the image. 
+This program allows the user to read in a file containing DICOM series images of chest CT scans and isolate the heart from the rest of the image. 
 
 Working concept: The user selects a sample of images from the dataset to create circular ROIs around the heart with help to predict how the position and size of the heart are changing from current layer to the next layer using a third degree polynomial regression model.  
 
