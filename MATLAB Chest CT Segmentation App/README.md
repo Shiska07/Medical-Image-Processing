@@ -8,7 +8,7 @@ Axial Chest CT scan example:
 Application UI
 The application exhibits a simple interface with self-explanatory features designed to guide the user through a seamless segmentation experience. To install the app, open MATLAB first and then click on the application file. On being asked whether you want to install the file, click ‘install’. The application will appear under ‘APPS’.
 
-<img src = "Images/chest_CT-example.jpg" width = 600>
+<img src = "Images/chest_CT_example.jpg" width = 600>
 
 
 A)	Loading Your Images 
