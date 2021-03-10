@@ -10,9 +10,9 @@ Program Purpose
 Oftentimes during a 3D reconstruction process, the presence of unwanted anatomical features can decrease the efficiency of automatic thresholding and significantly increase the amount of manual segmentation required. While most programs do allow for a rectangular/circular crop, unwanted regions around the object of interest may remain and interfere with the efficiency of the overall 3D reconstruction.
 The chest CT segmentation app gives the user the liberty to remove all unwanted regions prior to uploading the scans to a 3D reconstruction program. An example of the final product after using this application is shown below: 
 
-<img src = "Images/28.png" width = 800>
+<img src = "Images/28.png" width = 500>
 
-<img src = "Images/29.png" width = 800>
+<img src = "Images/29.png" width = 500>
                           
 Application UI
 The application exhibits a simple interface with self-explanatory features designed to guide the user through a seamless segmentation experience. To install the app, open MATLAB first and then click on the application file. On being asked whether you want to install the file, click ‘install’. The application will appear under ‘APPS’.
