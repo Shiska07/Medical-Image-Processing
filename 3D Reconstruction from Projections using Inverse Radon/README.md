@@ -5,13 +5,13 @@ Shadowgrams: These are projections/shadow of the object on a white screen. The i
 Shadowgrams of object(2 pencils) in clear liquid:
 
 Rotation: 0 degrees
-<img src = "../Pencils_clear_water/0_deg.jpg" width = 200>
+<img src = "Pencils_clear_water/0_deg.jpg" width = 200>
 
 Rotation: 11 degrees
-<img src = "../Pencils_clear_water/11_deg.jpg" width = 200>
+<img src = "Pencils_clear_water/11_deg.jpg" width = 200>
 
 Rotation: 254 degrees
-<img src = "../Pencils_clear_water/254_deg.jpg" width = 200>
+<img src = "Pencils_clear_water/254_deg.jpg" width = 200>
 
 Algorithm:
 -> To obtain cross section of the object at a certain height, a given row (for example 200th row in a 500x500 image: resulting size 1x500) is extracted from all 33 projections. These rows are stored as a separate matrix (resulting size: 33x500). The Inverse Radon Function take the transpose of this resulting matrix and the intervals of rotation as input parameters to output the cross sections at that height. 
