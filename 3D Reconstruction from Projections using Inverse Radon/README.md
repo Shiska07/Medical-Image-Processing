@@ -5,12 +5,15 @@ Shadowgrams: These are projections/shadow of the object on a white screen. The i
 Shadowgrams of object(2 pencils) in clear liquid:
 
 Rotation: 0 degrees
+
 <img src = "Pencils_clear_water/0_deg.jpg" width = 200>
 
 Rotation: 11 degrees
+
 <img src = "Pencils_clear_water/11_deg.jpg" width = 200>
 
 Rotation: 254 degrees
+
 <img src = "Pencils_clear_water/254_deg.jpg" width = 200>
 
 Algorithm:
@@ -22,19 +25,51 @@ IR = iradon(single_layer_t, theta);      where, single_layer_t is the 500x30 arr
 
 Sample cross-sections of object in clear liquid obtained via iradon transform can be seen below:
 
+<img src = "Sample_crosssections1.PNG" width = 400>
+
+
 -> Desity of each object is also taken into account with the help of absorbance. This is reflected in the object's projections. For example, when the objects are kept in murky liquid (instead of clear), less light passes through the liquid. This results in a decrease in the object's contrast in the shadowgrams. 
 
 Shadowgrams of object in murky liquid:
 
+Rotation: 0 degrees
+
+<img src = "Pencils_murky_water/20210424_231531.jpg" width = 200>
+
+Rotation: 11 degrees
+
+<img src = "Pencils_murky_water/20210424_231540.jpg" width = 200>
+
+Rotation: 254 degrees
+
+<img src = "Pencils_murky_water/20210424_231709.jpg" width = 200>
+
 
 Sample cross-sections of object in murky liquid obtained via iradon transform can be seen below:
 
+<img src = "Sample_crosssections2.PNG" width = 400>
 
 In the code.m file, the cross-sections of all layers of the object in files 'Pencils_clear-water' and 'pencils_murky_water' are obtained and stacked on one other to create a 3D rendering of the object. MATLAB volume rendering tool is then used to view the 3D rendering of the object by changing opacity and intensity values. 
 
 3D renderings of object in clear liquid: Shape of the object can be easily seen without drastically changing opacity and intensity values
 
+<img src = "clear_3D_1.PNG" width = 400>
+
+<img src = "clear_3D_2.PNG" width = 400>
+
+<img src = "clear_3D_3.PNG" width = 400>
+
+
 3D renderings of object in murky liquid: Shape of the object cannot be easily seen and requires appropriate adjustment of opacity and intensity values.
+
+
+<img src = "murky_3D_1.PNG" width = 400>
+
+<img src = "murky_3D_2.PNG" width = 400>
+
+<img src = "murky_3D_3.png" width = 400>
+
+
 
 
 
