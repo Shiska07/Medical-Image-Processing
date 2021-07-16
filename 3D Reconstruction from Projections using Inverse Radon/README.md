@@ -25,7 +25,7 @@ IR = iradon(single_layer_t, theta);      where, single_layer_t is the 500x30 arr
 
 Sample cross-sections of object in clear liquid obtained via iradon transform can be seen below:
 
-<img src = "Sample_crosssections1.PNG" width = 400>
+<img src = "Sample_crosssections1.PNG" width = 700>
 
 
 -> Desity of each object is also taken into account with the help of absorbance. This is reflected in the object's projections. For example, when the objects are kept in murky liquid (instead of clear), less light passes through the liquid. This results in a decrease in the object's contrast in the shadowgrams. 
@@ -47,27 +47,27 @@ Rotation: 254 degrees
 
 Sample cross-sections of object in murky liquid obtained via iradon transform can be seen below:
 
-<img src = "Sample_crosssections2.PNG" width = 400>
+<img src = "Sample_crosssections2.PNG" width = 700>
 
 In the code.m file, the cross-sections of all layers of the object in files 'Pencils_clear-water' and 'pencils_murky_water' are obtained and stacked on one other to create a 3D rendering of the object. MATLAB volume rendering tool is then used to view the 3D rendering of the object by changing opacity and intensity values. 
 
 3D renderings of object in clear liquid: Shape of the object can be easily seen without drastically changing opacity and intensity values
 
-<img src = "clear_3D_1.PNG" width = 400>
+<img src = "clear_3D_1.PNG" width = 700>
 
-<img src = "clear_3D_2.PNG" width = 400>
+<img src = "clear_3D_2.PNG" width = 700>
 
-<img src = "clear_3D_3.PNG" width = 400>
+<img src = "clear_3D_3.PNG" width = 700>
 
 
 3D renderings of object in murky liquid: Shape of the object cannot be easily seen and requires appropriate adjustment of opacity and intensity values.
 
 
-<img src = "murky_3D_1.PNG" width = 400>
+<img src = "murky_3D_1.PNG" width = 700>
 
-<img src = "murky_3D_2.PNG" width = 400>
+<img src = "murky_3D_2.PNG" width = 700>
 
-<img src = "murky_3D_3.png" width = 400>
+<img src = "murky_3D_3.png" width = 700>
 
 
 
